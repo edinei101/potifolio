@@ -1,0 +1,16 @@
+.casa {
+    text-align: center;
+    padding: calc(var(--spacing-unit) * 4) 0;
+  
+    h1 {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+      margin-bottom: var(--spacing-unit);
+    }
+  
+    p {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      margin-bottom: calc(var(--spacing-unit) * 2);
+    }
+  }

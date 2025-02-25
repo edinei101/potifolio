@@ -1,0 +1,26 @@
+// src/components/Footer/Footer.scss
+.footer {
+    background-color: var(--surface-color);
+    padding: calc(var(--spacing-unit) * 2) 0;
+    text-align: center;
+    color: var(--text-muted);
+  
+    p {
+      margin-bottom: var(--spacing-unit);
+    }
+  
+    .social-links {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: calc(var(--spacing-unit) * 2);
+  
+      li a {
+        color: var(--text-color);
+        text-decoration: none;
+        &:hover {
+          color: var(--primary-color);
+        }
+      }
+    }
+  }
